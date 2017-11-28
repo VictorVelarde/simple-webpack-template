@@ -1,0 +1,20 @@
+$primary-color: hsl(0, 18%, 33%);
+
+// Fonts
+@import url(https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Slab);
+$header-font: 'Roboto Slab', serif;
+$body-font: 'Open Sans', sans-serif;
+
+// Styles
+body {
+    font-family: $body-font;
+    font-weight: normal;
+    color: $primary-color;
+}
+
+h1,
+h2 {
+    font-family: $header-font;
+    font-weight: normal;
+    margin-top: 0px;
+}
