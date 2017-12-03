@@ -10,10 +10,10 @@
 </head>
 
 <body>
-    <h1>Simple Webpack template</h1>
+    <h1>simple webpack template</h1>
     <hr/>
     <h2>1. What is this?</h2>
-    <p>This is a little web template. It provides a quick start for a basic project with
+    <p>This is a little web template. It provides a quick start for a basic project using
         <emphasis>Webpack</emphasis> + some other goodies working out of the box:</p>
     <ul>
         <li>
@@ -22,26 +22,38 @@
         </li>
         <li>
             <a href="http://sass-lang.com/">SASS</a> styles with css-reset</li>
-        <li>Hot Module Replacement (HMR) for both of them </li>
+        <li>Hot Module Replacement (HMR) for both JS & CS</li>
     </ul>
 
     <h2>2. How do I use it?</h2>
     <ul>
         <li>
-            <p>To
-                <strong>Debug</strong> your project...</p>
-            <pre class="code">
-                        npm start
-                    </pre>
-            <p>It will start a local dev server at :8080, loading index.html in HMR mode</p>
+            <p>To DOWNLOAD</p>
+            <code>
+                git clone https://github.com/VictorVelarde/simple-webpack-template.git
+            </code>
+            <p>- It will clone the repo locally</p>
         </li>
         <li>
-            <p>To
-                <strong>Build</strong> your project</p>
-            <pre class="code">
-                    npm run build
-                </pre>
-            <p>It will create js and css minified bundles at `docs`, with their corresponding .map files</p>
+            <p>To PREPARE</p>
+            <code>
+                cd simple-webpack-template && npm install
+            </code>
+            <p>- It will download its dependencies</p>
+        </li>
+        <li>
+            <p>To DEBUG your project:</p>
+            <code>
+                npm start
+            </code>
+            <p>- It will start a local dev server at :8080, loading index.html in HMR mode</p>
+        </li>
+        <li>
+            <p>To BUILD your project</p>
+            <code>
+                npm run build
+            </code>
+            <p>- It will create js and css minified bundles at `docs`, with their corresponding .map files</p>
         </li>
     </ul>
 

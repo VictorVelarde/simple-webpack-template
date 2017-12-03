@@ -1,6 +1,6 @@
 @import 'reset';
 
-
+// Colors
 $primary-color: hsl(0, 18%, 33%);
 
 // Fonts
@@ -25,13 +25,13 @@ body {
 h1 {
     @extend .my-header;   
     font-size: 40px;
-    margin: 30px 20px 30px 20px;
+    margin: 30px 20px;
 }
 
 h2 {
     @extend .my-header;
     font-size: 26px;
-    margin: 15px 10px 15px 10px;
+    margin: 15px 10px;
 }
 
 ul {
@@ -45,9 +45,9 @@ p {
     margin: 15px;
 }
 
-pre.code {
-    color: white;
-    border: 1px white solid;
+code {
+    padding: 5px 10px;
+    margin-left: 15px;
     background-color: rgba(0, 0, 0, 0.8);
-    padding-top: 10px;
+    color: white;
 }

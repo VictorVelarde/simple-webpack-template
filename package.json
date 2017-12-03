@@ -1,13 +1,16 @@
 {
-    "name": "my-template",
+    "name": "simple-webpack-template",
     "version": "1.0.0",
-    "description": "Basic template for web projects using webpack",
+    "description": "Simple web template using webpack",
     "main": "main.js",
     "scripts": {
         "start": "webpack-dev-server --hot --inline --content-base docs",
         "build": "webpack -p"
     },
-    "keywords": ["template", "web"],
+    "keywords": [
+        "template",
+        "web"
+    ],
     "author": "Víctor Velarde",
     "license": "ISC",
     "devDependencies": {
@@ -25,5 +28,9 @@
         "url-loader": "^0.6.2",
         "webpack": "^3.8.1",
         "webpack-dev-server": "^2.9.4"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/VictorVelarde/simple-webpack-template.git"
     }
 }
