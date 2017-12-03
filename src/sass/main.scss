@@ -1,3 +1,6 @@
+@import 'reset';
+
+
 $primary-color: hsl(0, 18%, 33%);
 
 // Fonts
@@ -9,12 +12,42 @@ $body-font: 'Open Sans', sans-serif;
 body {
     font-family: $body-font;
     font-weight: normal;
+    font-size: 16px;
+    line-height: 1.6;
     color: $primary-color;
 }
 
-h1,
-h2 {
+.my-header {
     font-family: $header-font;
     font-weight: normal;
-    margin-top: 0px;
+}
+
+h1 {
+    @extend .my-header;   
+    font-size: 40px;
+    margin: 30px 20px 30px 20px;
+}
+
+h2 {
+    @extend .my-header;
+    font-size: 26px;
+    margin: 15px 10px 15px 10px;
+}
+
+ul {
+    list-style-type: circle;
+    li {
+        margin-left: 50px;
+    }
+}
+
+p {
+    margin: 15px;
+}
+
+pre.code {
+    color: white;
+    border: 1px white solid;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding-top: 10px;
 }

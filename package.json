@@ -4,8 +4,7 @@
     "description": "Basic template for web projects using webpack",
     "main": "main.js",
     "scripts": {
-        "start": "webpack-dev-server --hot --inline",
-        "webpack": "webpack --watch",
+        "start": "webpack-dev-server --hot --inline --content-base docs",
         "build": "webpack -p"
     },
     "keywords": ["template", "web"],

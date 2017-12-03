@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Webpack template</title>
+
+    <link rel="stylesheet" href="bundle.css">
+</head>
+
+<body>
+    <h1>Simple Webpack template</h1>
+    <hr/>
+    <h2>1. What is this?</h2>
+    <p>This is a little web template. It provides a quick start for a basic project with
+        <emphasis>Webpack</emphasis> + some other goodies working out of the box:</p>
+    <ul>
+        <li>
+            <a href="http://es6-features.org">ES6</a>, thx to
+            <a href="http://babeljs.io/">Babel</a>
+        </li>
+        <li>
+            <a href="http://sass-lang.com/">SASS</a> styles with css-reset</li>
+        <li>Hot Module Replacement (HMR) for both of them </li>
+    </ul>
+
+    <h2>2. How do I use it?</h2>
+    <ul>
+        <li>
+            <p>To
+                <strong>Debug</strong> your project...</p>
+            <pre class="code">
+                        npm start
+                    </pre>
+            <p>It will start a local dev server at :8080, loading index.html in HMR mode</p>
+        </li>
+        <li>
+            <p>To
+                <strong>Build</strong> your project</p>
+            <pre class="code">
+                    npm run build
+                </pre>
+            <p>It will create js and css minified bundles at `docs`, with their corresponding .map files</p>
+        </li>
+    </ul>
+
+    <script src="bundle.js"></script>
+
+    <script>window.onload = main.default;</script>
+</body>
+
+</html>

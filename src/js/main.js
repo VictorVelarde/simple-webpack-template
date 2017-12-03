@@ -1,4 +1,6 @@
+import Greeting from './greeting';
+
 export default function main() {
-    const message = `And Hello from JS ${Date.now()}`;
-    window.setTimeout(() => window.alert(message), 3000);
+    const greeting = new Greeting('Bob');
+    setTimeout(() => console.log(greeting.sayHello()), 3000);
 }
